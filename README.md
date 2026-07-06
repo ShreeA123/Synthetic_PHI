@@ -1,4 +1,5 @@
 # Synthetic PHI Generation Pipeline Project Description
+
 ## Project Description
 -  This project focuses on building a Synthetic Protected Health Information (PHI) generation pipeline designed to safely evaluate and train medical image de-identification systems.
 -  Medical images inherently suffer from the "iceberg problem," where sensitive identifiers are not only visible as burned-in text on the image pixels but are also hidden within the structural metadata (like DICOM headers).
