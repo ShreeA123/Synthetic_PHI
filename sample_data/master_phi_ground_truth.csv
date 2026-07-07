@@ -1,0 +1,4 @@
+original_file,synthetic_file,patient_id,patient_name,burned_text,study_date,bounding_box
+original_image.jpg,sample_data/synthetic_image.jpg,8a7b6c5d,Jane Synthetic,"Name: Jane Synthetic
+ID: 8a7b6c5d
+DOB: 19851020",20231025,"(10, 10, 200, 50)"
