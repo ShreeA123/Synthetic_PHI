@@ -117,4 +117,4 @@ if __name__ == "__main__":
     
     # Step B: Read the CSV and create the DICOM file
     convert_images_to_dicom(sample_csv)
-    print("\n🎉 Pipeline Complete!")
+    print("\n Pipeline Complete!")
