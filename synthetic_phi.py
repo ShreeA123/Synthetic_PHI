@@ -79,10 +79,10 @@ def get_all_images_from_patient(patient_path):
 def main():
     
     # 1. Base path updated to your new location containing the dataset.
-    base_path = r"C:\Users\shree\Downloads\Database\Lung Database"
+    base_path = r"SET_INPUT_LOCATION"
     
     # 2. Output directory where the new synthetic images will be saved.
-    output_base_dir = r"D:\Work\Synthetic_PHI_Dataset"
+    output_base_dir = r"SET_OUTPUT_LOCATION"
     
     # Automatically create the output directory if it doesn't already exist.
     os.makedirs(output_base_dir, exist_ok=True)
