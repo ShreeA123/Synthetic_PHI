@@ -2,7 +2,7 @@ from pathlib import Path
 import zipfile
 import shutil
 
-ROOT = Path(r"C:\Users\shree\Downloads\Database\Lung Database")  # <-- change to your top folder that contains Pt93.21, Pt94.1, etc.
+ROOT = Path(r"ST_ROOT_LOCATION")  # <-- change to your top folder that contains Patient files.
 ZIP_PREFIX = "processed_"       # we will match: processed_<number>_images_batch*.zip
 OUTER_NAME_MATCH = "processed_"  # kept for readability
 
